@@ -6,7 +6,7 @@ class SecondPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: "the second page",
-      home: Scaffold(body: new RandomWords()),
+      home: new RandomWords(),
     );
   }
 }
